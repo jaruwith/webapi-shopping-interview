@@ -20,20 +20,10 @@ namespace webapi_shopping_interview.Controllers
         //ใช้ login
         // GET: api/Users
         [HttpGet]
-        public async Task<ActionResult<User>> GetUser(string username, string passwordHash)
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            _logger.LogInformation($"Fetching user with username: {username}.");
-
-            var user = await _context.Set<User>()
-                .FirstOrDefaultAsync(u => u.Username == username && u.PasswordHash == passwordHash);
-
-            if (user == null)
-            {
-                _logger.LogWarning($"User with username: {username} not found or password does not match.");
-                return NotFound();
-            }
-
-            return Ok(user);
+            _logger.LogInformation("Fetching all users.");
+            return await _context.Set<User>().ToListAsync();
         }
 
         // GET: api/Users/5
