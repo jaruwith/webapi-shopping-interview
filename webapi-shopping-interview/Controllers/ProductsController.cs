@@ -26,6 +26,107 @@ namespace webapi_shopping_interview.Controllers
             return await _context.Set<Product>().ToListAsync();
         }
 
+        // GET: api/Products/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Product>> GetProduct(int id)
+        {
+            _logger.LogInformation($"Fetching product with id {id}.");
+            var product = await _context.Set<Product>().FindAsync(id);
+
+            if (product == null)
+            {
+                _logger.LogWarning($"Product with id {id} not found.");
+                return NotFound();
+            }
+
+            return product;
+        }
+
+        // ใช้สร้าง product
+        // POST: api/Products
+        [HttpPost]
+        public async Task<ActionResult<Product>> PostProduct([FromForm] Product product, IFormFile image)
+        {
+            _logger.LogInformation("Creating a new product.");
+            if (image != null && image.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    await image.CopyToAsync(memoryStream);
+                    product.Image = memoryStream.ToArray();
+                }
+            }
+
+            _context.Set<Product>().Add(product);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation($"Product with id {product.ProductId} created.");
+
+            return CreatedAtAction(nameof(GetProduct), new { id = product.ProductId }, product);
+        }
+
+        //ใช้ อัพเดท stock
+        // PUT: api/Products/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutProduct(int id, [FromForm] int stock)
+        {
+            _logger.LogInformation($"Updating stock for product with id {id}.");
+            var product = await _context.Set<Product>().FindAsync(id);
+            if (product == null)
+            {
+                _logger.LogWarning($"Product with id {id} not found.");
+                return NotFound();
+            }
+
+            product.Stock = stock;
+            var thailandTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+            var thailandTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, thailandTimeZone);
+
+            product.UpdatedAt = thailandTime;
+
+            _context.Entry(product).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                _logger.LogInformation($"Stock for product with id {id} updated.");
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ProductExists(id))
+                {
+                    _logger.LogError($"Product with id {id} not found during stock update.");
+                    return NotFound();
+                }
+                else
+                {
+                    _logger.LogError($"Concurrency exception while updating stock for product with id {id}.");
+                    throw;
+                }
+            }
+
+            return NoContent();
+        }
+
+        // DELETE: api/Products/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            _logger.LogInformation($"Deleting product with id {id}.");
+            var product = await _context.Set<Product>().FindAsync(id);
+            if (product == null)
+            {
+                _logger.LogWarning($"Product with id {id} not found.");
+                return NotFound();
+            }
+
+            _context.Set<Product>().Remove(product);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation($"Product with id {id} deleted.");
+
+            return NoContent();
+        }
 
         // GET: api/Products/images/5
         [HttpGet("images/{id}")]
@@ -86,6 +187,9 @@ namespace webapi_shopping_interview.Controllers
             return File(product.Image, "image/jpeg");
         }
 
-        
+        private bool ProductExists(int id)
+        {
+            return _context.Set<Product>().Any(e => e.ProductId == id);
+        }
     }
 }

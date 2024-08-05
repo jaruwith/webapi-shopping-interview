@@ -38,7 +38,7 @@ var isProduction = builder.Configuration.GetValue<bool>("DatabaseSettings:IsProd
 if (isProduction)
 {
     builder.Services.AddDbContext<DbContext, AppDbContext>(options =>
-        options.UseInMemoryDatabase("Interview"));
+        options.UseInMemoryDatabase("TestForInterview"));
 }
 else
 {

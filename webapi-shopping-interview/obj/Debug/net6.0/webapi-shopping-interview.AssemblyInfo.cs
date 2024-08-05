@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webapi-shopping-interview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aff38e054db97049e45b6e1a48d3ab2e8f903320")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61d730a09c668efa79df47c72b85839d9da7cdfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("webapi-shopping-interview")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webapi-shopping-interview")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
