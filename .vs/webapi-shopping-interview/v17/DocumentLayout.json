@@ -7,12 +7,40 @@
       "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\model\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|c:\\jay\\project\\shoppinginterview\\webapi-shopping-interview\\webapi-shopping-interview\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C230BF-0795-4517-A7F1-859A006309A7}|webapi-shopping-interview\\webapi-shopping-interview.csproj|solutionrelative:webapi-shopping-interview\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +50,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAD4v0EAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:39:41.046Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Model\\Product.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\Product.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:38:52.138Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\Stock.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Model\\Stock.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\Stock.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Model\\Stock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:38:46.526Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Program.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Program.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Program.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:58:44.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:48:31.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\OrderItem.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Model\\OrderItem.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\OrderItem.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Model\\OrderItem.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:45:04.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "webapi-shopping-interview\\Model\\Order.cs",
+              "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\Order.cs",
+              "RelativeToolTip": "webapi-shopping-interview\\Model\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:44:54.564Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +148,14 @@
               "RelativeDocumentMoniker": "webapi-shopping-interview\\appsettings.json",
               "ToolTip": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\appsettings.json",
               "RelativeToolTip": "webapi-shopping-interview\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-05T07:01:04.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Model\\User.cs",
               "RelativeDocumentMoniker": "webapi-shopping-interview\\Model\\User.cs",
@@ -51,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\jay\\project\\ShoppingInterview\\webapi-shopping-interview\\webapi-shopping-interview\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "webapi-shopping-interview\\Controllers\\UserController.cs",
@@ -59,8 +175,7 @@
               "RelativeToolTip": "webapi-shopping-interview\\Controllers\\UserController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T06:56:13.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T06:56:13.891Z"
             }
           ]
         }
